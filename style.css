@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+#main{
+    width: 100%;
+    /* background-color:pink; */
+}
+#main h2{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 50px;
+    margin-bottom: 30px;
+
+}
+#first{
+   display: grid;
+   grid-template-columns: auto auto auto;
+   gap: 20px;
+   padding: 10px;
+}
+.semi{
+    width: 300px;
+    height: 350px;
+    background-color:bisque;
+    /* border: 2px solid black; */
+    border-radius: 62px 16px 42px 10px;
+    box-shadow: 0 26px 58px 0 rgba(0, 0, 0, .22), 0 5px 14px 0 rgba(0, 0, 0, .18);
+    
+}
+img{
+    width: 150px;
+    height: 150px;
+    
+}
+h3{
+    color: black;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.ppp{
+    width: 107px;
+    display: flex;
+    justify-content: space-around;
+}
+.ppp h6{
+    text-decoration: line-through;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: -13px;
+}
+h4{
+    color: tomato;
+}
+button{
+    background-color: brown;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    color: aliceblue;
+}
+a{
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+button:hover{
+    color: black;
+    background-color: rgb(244, 153, 153);
+}
